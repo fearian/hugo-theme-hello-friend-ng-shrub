@@ -347,6 +347,24 @@ ol ol {
   }
 }
 
+.social-links {
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.social-links-list {
+  margin: 3rem;
+  margin-bottom: 8rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1 auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 hr {
   width: 100%;
   border: none;
