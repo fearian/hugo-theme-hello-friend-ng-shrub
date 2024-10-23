@@ -348,9 +348,10 @@ ol ol {
 }
 
 .social-links {
+  font-size: large;
   display: flex;
   flex-direction: column;
-  flex: 1 auto;
+  flex: 1 0 auto;
   justify-content: space-evenly;
   align-items: start;
 }
@@ -360,9 +361,28 @@ ol ol {
   margin-bottom: 8rem;
   display: flex;
   flex-direction: column;
-  flex: 1 auto;
+  flex: 1 0 auto;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.social-link {
+  padding: 0.25em;
+  display: flex; /* Use flexbox for each link item */
+  align-items: center; /* Vertically center the icon and text */
+  text-decoration: none; /* Remove underline by default */
+}
+
+.social-link span {
+  margin-left: 12px; /* Space between the icon and the text */
+  text-decoration: underline; /* Underline only the text */
+}
+
+.social-link svg {
+  width: 24px; /* Define width for icons */
+  height: 24px; /* Define height for icons */
+  display: block; /* Ensure icons are treated as block elements */
+  fill: currentColor; /* Inherit link color for the icons */
 }
 
 hr {

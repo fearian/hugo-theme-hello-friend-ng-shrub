@@ -1,11 +1,13 @@
 # Available Social Icons:
 
 - [amazon](https://simpleicons.org/?q=amazon)
+- [artstation](https://simpleicons.org/?q=artstation)
 - [anilist](https://simpleicons.org/?q=anilist)
 - [box](https://simpleicons.org/?q=box)
 - [behance](https://simpleicons.org/?q=behance)
 - [bitbucket](https://simpleicons.org/?q=bitbucket)
 - case - generic briefcase icon for work based links
+- [bluesky](https://simpleicons.org/?q=bluesky)
 - [codesandbox](https://simpleicons.org/?q=codesandbox)
 - [codechef](https://simpleicons.org/?q=codechef)
 - [codepen](https://simpleicons.org/?q=codepen)

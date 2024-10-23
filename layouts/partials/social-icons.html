@@ -1,8 +1,8 @@
 <div class="social-links-list">
     <div class="social-links">
 {{ range . -}}
-    <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .name | humanize }}">
-        {{ partial "svg.html" . }} &nbsp; {{ .title }} {{/* .icons\$name.svg */}}
+    <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .title }}" class="social-link">
+        {{ partial "icon.html" . }} <span>{{ .title }}</span>
     </a>
     <br>
 {{- end -}}

@@ -1,0 +1,2 @@
+{{- $iconPath := printf "icons/%s.svg" .name -}}
+{{ (resources.Get $iconPath).Content | safeHTML }}
